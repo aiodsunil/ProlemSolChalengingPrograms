@@ -2,6 +2,7 @@
 fun insertionSort(array: MutableList<Int>): List<Int> {
 
     for (i in 0 until array.size ){
+
         for (j in i downTo  1){
             if (array[j]<array[j-1]){
                 swapElement1(j,j-1,array)
